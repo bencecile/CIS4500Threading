@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="Start CPU Singlethreaded"
+        android:onClick="startCPUSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start CPU Multithreaded"
+        android:onClick="startCPUMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start CPU Multithreaded more than CPUs"
+        android:onClick="startCPUMultiMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start Network Singlethreaded"
+        android:onClick="startNetworkSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start Network Multithreaded same as CPUs"
+        android:onClick="startNetworkMultiSame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Start Network Multithreaded more than CPUs"
+        android:onClick="startNetworkMultiMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</android.widget.LinearLayout>
